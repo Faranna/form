@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+     background-color: #5CBBFF;
+     /* width: 50%; */
+     /* margin: auto; */
+     height: 100px;
+}
+
+nav {
+
+wdith: 40%;
+
+width: 40%;
+
+margin: auto;
+}
+
+nav ul {
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 35px 0px;
+}
+
+nav ul li {
+
+padding: 0px 4px;
+}
+
+nav ul li a {
+
+text-decoration: none;
+
+color: white;
+
+font-size: 15px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    height: 600px;
+}
+
+.left {
+    background-color:#5CBBFF ;
+    width: 40%;
+    height: 800px;
+    
+    text-align: center;
+}
+
+.left img {
+
+}
+.right {
+    width: 60%;
+    height: 800px;
+    background-color: #0092FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_content {
+    width: 50%;
+    
+}
+
+.form_content h3 {
+    font-size: 30px;
+}
+.form_content p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.form_content h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.form_content form {
+    
+}
+
+.form_content form input {
+    width: 100%;
+    border: none;
+    padding: 10px 0px 10px 5px;
+    margin: 5px 0px;
+}
+
+.form_content form input[type='submit'] {
+    width: 20%;
+    padding-left: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+}
+.last {
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.form_content .last p{
+   
+   
+}
+.last ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0px 5px;
+    display: flex;
+
+
+}
+
+.last ul li {
+    padding: 0px 5px;
+}
+
